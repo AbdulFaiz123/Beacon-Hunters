@@ -25,7 +25,7 @@ public class IntroductoryActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
+//        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_introductory);
 
 
@@ -34,10 +34,10 @@ public class IntroductoryActivity extends AppCompatActivity {
         splashImg = findViewById(R.id.img);
         lottieAnimationView = findViewById(R.id.lottie);
 
-        splashImg.animate().translationY(-2200).setDuration(1000).setStartDelay(4000);
-        logo.animate().translationY(1600).setDuration(1000).setStartDelay(4000);
-        appName.animate().translationY(1600).setDuration(1000).setStartDelay(4000);
-        lottieAnimationView.animate().translationY(1600).setDuration(1000).setStartDelay(4000);
+        splashImg.animate().translationY(-2600).setDuration(1000).setStartDelay(4000);
+        logo.animate().translationY(2100).setDuration(1000).setStartDelay(4000);
+        appName.animate().translationY(2100).setDuration(1000).setStartDelay(4000);
+        lottieAnimationView.animate().translationY(2100).setDuration(1000).setStartDelay(4000);
 
 
         viewPager = findViewById(R.id.pager);
